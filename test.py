@@ -1,0 +1,12 @@
+import turtle
+space=turtle.Screen()
+space.bgcolor("black")
+jarjar=turtle.Turtle()
+anakin=turtle.Turtle()
+anakin.pu()
+jarjar.pu()
+anakin.color("tan")
+jarjar.color("darkorange")
+space.listen()
+anakin.fd(10)
+anakin.ondrag(anakin.goto)

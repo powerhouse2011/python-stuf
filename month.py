@@ -1,0 +1,23 @@
+import time
+print (time.localtime())
+print (time.strftime("\n%Y%B%D%A %I:%M%p"))
+gettime = lambda:  time.strftime("\n%Y%B%D%A %I:%M%p")
+if time.strftime("%B") == "December":
+    print("It's December! That Means Christmas Soon!")
+if time.strftime("%B") == "January":
+    print("It's Janurary! That Means Martin L. King Junior Day")
+print("{} Days Till Christmas".format(359-int(time.strftime("%j"))))
+print("{} Days Till Martin L. King's Brithday".format(15-int(time.strftime("%j"))))
+print("{} Days Till Oreo Cookie Day".format(65-int(time.strftime("%j"))))
+print("{} Days Till Valentines Day".format(45-int(time.strftime("%j"))))
+print("{} Days Till April Foll's Day".format(91-int(time.strftime("%j"))))
+print("{} Days Till my b-day".format(134-int(time.strftime("%j"))))
+print("{} Days Till orion b-day".format(124-int(time.strftime("%j"))))
+print("{} Days Till Halloween".format(304-int(time.strftime("%j"))))
+print("{} Days Till Easter".format(107-int(time.strftime("%j"))))
+print("{} Days Till Saint Patirck's Day".format(76-int(time.strftime("%j"))))
+print("{} Days Till alex b-day".format(197-int(time.strftime("%j"))))
+print("{} Days Till alex's grama's B-Day!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!".format(189-int(time.strftime("%j"))))
+print("{} Days Till jojo Birthday".format(320-int(time.strftime("%j"))))
+print("{} Days Till riply b-day".format(140-int(time.strftime("%j"))))
+print("{} Days Till kristy b-day".format(129-int(time.strftime("%j"))))
